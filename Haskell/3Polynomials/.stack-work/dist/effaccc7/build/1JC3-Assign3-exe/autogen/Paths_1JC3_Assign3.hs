@@ -46,12 +46,12 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
-bindir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\bin"
-libdir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0-FCnJmak7CQxCPY0K6zNIyZ-1JC3-Assign3-exe"
-dynlibdir  = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6"
-datadir    = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\share\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0"
-libexecdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\libexec\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0"
-sysconfdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\etc"
+bindir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\CODE\\UNI\\University-Work\\Haskell\\Assignment3\\.stack-work\\install\\5fe400d8\\bin"
+libdir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\CODE\\UNI\\University-Work\\Haskell\\Assignment3\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0-FCnJmak7CQxCPY0K6zNIyZ-1JC3-Assign3-exe"
+dynlibdir  = "C:\\Users\\yusuf\\OneDrive\\Desktop\\CODE\\UNI\\University-Work\\Haskell\\Assignment3\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6"
+datadir    = "C:\\Users\\yusuf\\OneDrive\\Desktop\\CODE\\UNI\\University-Work\\Haskell\\Assignment3\\.stack-work\\install\\5fe400d8\\share\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0"
+libexecdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\CODE\\UNI\\University-Work\\Haskell\\Assignment3\\.stack-work\\install\\5fe400d8\\libexec\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0"
+sysconfdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\CODE\\UNI\\University-Work\\Haskell\\Assignment3\\.stack-work\\install\\5fe400d8\\etc"
 
 getBinDir     = catchIO (getEnv "1JC3_Assign3_bindir")     (\_ -> return bindir)
 getLibDir     = catchIO (getEnv "1JC3_Assign3_libdir")     (\_ -> return libdir)

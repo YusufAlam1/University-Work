@@ -5,7 +5,7 @@
 #endif
 {-# OPTIONS_GHC -fno-warn-missing-import-lists #-}
 {-# OPTIONS_GHC -w #-}
-module Paths_1JC3_Assign3 (
+module Paths_1JC3_Assign4 (
     version,
     getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir,
     getDataFileName, getSysconfDir
@@ -46,19 +46,19 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
-bindir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\bin"
-libdir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0-7xTOIdsju34psDUhMuqNx"
-dynlibdir  = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6"
-datadir    = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\share\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0"
-libexecdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\libexec\\x86_64-windows-ghc-9.6.6\\1JC3-Assign3-0.1.0.0"
-sysconfdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment3\\.stack-work\\install\\5fe400d8\\etc"
+bindir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment4\\.stack-work\\install\\5fe400d8\\bin"
+libdir     = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment4\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6\\1JC3-Assign4-0.1.0.0-7XZLG4jbITj2VMZXR0cFJ4"
+dynlibdir  = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment4\\.stack-work\\install\\5fe400d8\\lib\\x86_64-windows-ghc-9.6.6"
+datadir    = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment4\\.stack-work\\install\\5fe400d8\\share\\x86_64-windows-ghc-9.6.6\\1JC3-Assign4-0.1.0.0"
+libexecdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment4\\.stack-work\\install\\5fe400d8\\libexec\\x86_64-windows-ghc-9.6.6\\1JC3-Assign4-0.1.0.0"
+sysconfdir = "C:\\Users\\yusuf\\OneDrive\\Desktop\\UNI\\jc3\\assignment4\\.stack-work\\install\\5fe400d8\\etc"
 
-getBinDir     = catchIO (getEnv "1JC3_Assign3_bindir")     (\_ -> return bindir)
-getLibDir     = catchIO (getEnv "1JC3_Assign3_libdir")     (\_ -> return libdir)
-getDynLibDir  = catchIO (getEnv "1JC3_Assign3_dynlibdir")  (\_ -> return dynlibdir)
-getDataDir    = catchIO (getEnv "1JC3_Assign3_datadir")    (\_ -> return datadir)
-getLibexecDir = catchIO (getEnv "1JC3_Assign3_libexecdir") (\_ -> return libexecdir)
-getSysconfDir = catchIO (getEnv "1JC3_Assign3_sysconfdir") (\_ -> return sysconfdir)
+getBinDir     = catchIO (getEnv "1JC3_Assign4_bindir")     (\_ -> return bindir)
+getLibDir     = catchIO (getEnv "1JC3_Assign4_libdir")     (\_ -> return libdir)
+getDynLibDir  = catchIO (getEnv "1JC3_Assign4_dynlibdir")  (\_ -> return dynlibdir)
+getDataDir    = catchIO (getEnv "1JC3_Assign4_datadir")    (\_ -> return datadir)
+getLibexecDir = catchIO (getEnv "1JC3_Assign4_libexecdir") (\_ -> return libexecdir)
+getSysconfDir = catchIO (getEnv "1JC3_Assign4_sysconfdir") (\_ -> return sysconfdir)
 
 
 
