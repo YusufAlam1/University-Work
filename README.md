@@ -15,9 +15,13 @@ Documenting key programming assignments across core CS courses.
 
 ---
 
-#### 🐍 COMPSCI 1MD3 – Introduction to Programming (Python)
+### 🐍 COMPSCI 1MD3 – Introduction to Programming (Python)
 
-> _(To be added)_ – Projects demonstrating foundational Python concepts and problem solving.  
+| Assignment | Description | Link |
+|------------|-------------|------|
+| 🧮 1. Polynomial Solutions | Solves real and complex roots using discriminant-based logic and Cardano’s method | [View Folder](./COMPSCI-1MD3/polynomial_solutions/) |
+| 🖼️ 2. Photo Processor | Performs basic image manipulation (mirror, greyscale, invert, merge, compress) using raw RGB pixel data | [View Folder](./COMPSCI-1MD3/photo_processor/) |
+| 🔡 3. Type Ahead | Implements a Trie-based engine for word prediction and auto-suggestions from typed prefixes | [View Folder](./COMPSCI-1MD3/type_ahead/) |
 
 ---
 
