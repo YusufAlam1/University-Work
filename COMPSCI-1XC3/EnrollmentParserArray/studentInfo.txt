@@ -1,0 +1,14 @@
+321 Jenny
+IntroToProgramming 1XC3 10
+ComputerGraphics 3GC3 8
+345 Paul
+IntroToProgramming 1XC3 10
+2199 Billy
+IntroToProgramming 1XC3 10
+ComputerGraphics 3GC3 8
+45601 Billie
+IntroToProgramming 1XC3 10
+934 Harry
+ComputerGraphics 3GC3 8
+333 Didi
+ComputerGraphics 3GC3 8
