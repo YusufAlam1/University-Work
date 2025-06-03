@@ -1,0 +1,7 @@
+Course 1XC3 IntroToProgramming 10
+321 Jenny
+345 Paul
+Course 3GC3 ComputerGraphics 8
+2199 Billy
+321 Jenny
+934 Harry
