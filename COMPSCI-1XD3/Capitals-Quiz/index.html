@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--
+ Author: Yusuf Alam
+ MACID: alamy1
+ Student Number: 400568561
+ Date: February 20th, 2025
+ Description: HTML for java script game assignment. used to display the main starting page
+                where user is asked for basic information and user can access insturctions 
+                to the game all withing a containter
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Capitals Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <div class="background-container"></div>
+
+    <!-- MAIN QUIZ CONTAINER -->
+    <div class="container">
+        <h1>The Capitals Test</h1>
+        <p>Test your knowledge of world capitals!</p>
+
+        <img src="images/capital.png">
+
+        <form id="welcome-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" required></input> <!-- user has to input or start quiz wont do anything-->
+
+            <label for="favorite-color">Favorite Color:</label>
+            <input type="color" id="favorite-color" required>
+
+            <button type="submit">Start Quiz</button>
+        </form>
+
+        <button id="help-btn">How do I play?</button>
+
+        <!-- HELP PORTION -->
+        <div id="help-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>How to Play</h2>
+                <p>Guess the capital of each country! Select the correct answer from four choices.</p>
+                <p>1 point is awarded for each correct answer. <br>Try to get all 10 correct!</p>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
