@@ -1,0 +1,93 @@
+<!--
+ Authors: Gureet Kharod, Yusuf Alam
+ MACIDs: kharodg, alamy1
+ Date: February 27th, 2025
+ Description: HTML for canvas assignment
+                foundation for the layout of the canvas and the toolbar buttons
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Assignment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="background-container"></div>
+
+    <div class="title-container">
+        <img src="images/canvasLeft.png" class="title-image left">
+        <h1>Canvas Drawing App</h1>
+        <img src="images/canavsRight.png" class="title-image right">
+    </div>
+
+    <!-- OPTIONS -->
+    <div class="toolbar">
+        <!-- SHAPE -->
+        <div class="toolbar-group">
+            <img src="images/OptionShape.png">
+            <label for="shape-type">Shape</label>
+            <select id="shape-type">
+                <option value="rectangle">Rectangle</option>
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+            </select>
+        </div>
+
+        <!-- COLOUR -->
+        <div class="toolbar-group">
+            <img src="images/palette.png">
+            <label for="color-picker">Color</label>
+            <input type="color" id="color-picker" value="#0000ff">
+        </div>
+
+        <!-- SIZE -->
+        <div class="toolbar-group">
+            <img src="images/size.png">
+            <label for="size-slider">Size</label>
+            <input type="range" id="size-slider" min="10" max="100" value="50">
+            <span id="size-value">50px</span>
+        </div>
+
+        <!-- BORDER WIDTH -->
+        <div class="toolbar-group">
+            <img src="images/border.png">
+            <label for="border-width">Border Width</label>
+            <input type="range" id="border-width" min="0" max="10" value="2">
+            <span id="border-width-value">2px</span>
+        </div>
+
+        <!-- FILL SHAPE? -->
+        <div class="toolbar-group">
+            <img src="images/fill.png">
+            <label for="fill-checkbox">Fill Shape?</label>
+            <input type="checkbox" id="fill-checkbox" checked>
+        </div>
+
+        <!-- UNDO & CLEAR -->
+        <div class="toolbar-buttons">
+            <button id="undo-button">
+                <img src="images/undo.png" class="button-icon">
+                Undo
+            </button>
+            <button id="clear-button">
+                <img src="images/clear.png" class="button-icon">
+                Clear
+            </button>
+        </div>
+    </div>
+
+    <!-- Canvas -->
+    <canvas id="drawing-canvas" width="800" height="500"></canvas>
+
+    <div class="instructions">
+        <p>Pick a shape and choose its properties above and then just click on the Canvas to place it!</p>
+    </div>
+</body>
+
+</html>
