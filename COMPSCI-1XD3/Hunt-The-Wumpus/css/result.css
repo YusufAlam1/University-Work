@@ -1,0 +1,41 @@
+/*
+ Author: Yusuf Alam
+ MACID: alamy1
+ Student Number: 400568561
+ Date: March 29th, 2025
+ Description: CSS for when the user gets a result on whether they caught the wumpus or not
+                matches the style from the wumpus.css template file
+*/
+
+body {
+    font-family: Arial, Helvetica sans-serif;
+  }
+
+#error-message {
+    color: crimson;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.result-message {
+    margin: 20px 0;
+}
+form {
+    margin: 20px auto;
+    max-width: 400px;
+}
+label, input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: burlywood;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: saddlebrown;
+}
+input[type="submit"]:hover {
+    background-color: antiquewhite;
+    color: saddlebrown;
+}

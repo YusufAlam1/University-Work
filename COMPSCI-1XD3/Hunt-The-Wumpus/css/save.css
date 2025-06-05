@@ -1,0 +1,47 @@
+/*
+ Author: Yusuf Alam
+ MACID: alamy1
+ Student Number: 400568561
+ Date: March 31th, 2025
+ Description: CSS for the saved results of the top 10 user (aka a leaderboard)
+                follows same style from pre-baked wumpus.css
+                rows are striped
+*/
+
+table.leaderboard {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    color: antiquewhite;
+    font-size: 18px;
+}
+.leaderboard th, .leaderboard td {
+    border: 1px solid burlywood;
+    padding: 8px;
+    text-align: center;
+}
+.leaderboard th {
+    background-color: burlywood;
+    color: saddlebrown;
+}
+/* Tried the alternating striped look showed in class */
+.leaderboard tr:nth-child(even) {
+    background-color: rgba(222, 184, 135, 0.2); 
+}
+
+.play-again {
+    display: inline-block;
+    background-color: burlywood;
+    color: saddlebrown;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 24px;
+}
+.play-again:hover {
+    background-color: antiquewhite;
+}
+.message {
+    margin: 20px 0;
+    font-size: 24px;
+}
