@@ -1,0 +1,256 @@
+/*
+ Author: Yusuf Alam
+ MACID: alamy1
+ Student Number: 400568561
+ Date: February 2nd, 2025
+ Description: The CSS (Cascading StyleSheet) for the web layout assignment
+              focusing on the behaviour of the page on different devices
+              using media queries for different pixel ranges
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* DESKTOP LAYOUT */
+@media (min-width: 1024px) {
+  body {
+    background-color: #bbdefb;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .featured {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .highlight-box {
+    border: 4px solid #42a5f5;
+    padding: 15px;
+    background-color: #e3f2fd;
+  }
+
+  .highlight-img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+  }
+
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+
+  .grid-item:nth-child(n + 9) {
+    display: none;
+  }
+
+  .box {
+    border: 4px solid #42a5f5;
+    padding: 15px;
+    text-align: center;
+    background-color: #e3f2fd;
+  }
+
+  .box-img {
+    width: auto;
+    max-width: 100%;
+    max-height: 180px;
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: #dcedc8;
+  }
+
+  .featured {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+    border: 4px solid #66bb6a;
+    background-color: #e8f5e9;
+  }
+
+  .highlight-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .highlight-img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    border: 4px solid #66bb6a;
+  }
+
+  .highlight-info {
+    flex: 1;
+    text-align: left;
+  }
+
+  .highlight-info h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    color: #2e7d32;
+  }
+
+  .highlight-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #424242;
+  }
+
+  .highlight-info a {
+    margin-top: 10px;
+    display: inline-block;
+    color: #1e88e5;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .grid-item:nth-child(n + 7) {
+    display: none;
+  }
+
+  .box {
+    background-color: #e8f5e9;
+    border: 4px solid #66bb6a;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .box-img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border: 4px solid #66bb6a;
+  }
+
+  .box-info h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #2e7d32;
+  }
+
+  .box-info a {
+    color: #1e88e5;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+}
+
+
+/* MOBILE LAYOUT: Less than 481px */
+@media (max-width: 480px) {
+  body {
+    background-color: #ffe0b2;
+  }
+
+  .featured {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    /* Align items to the top */
+    padding: 10px;
+    border: 4px solid #ff7043;
+    background-color: #fff3e0;
+  }
+
+  .highlight-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .highlight-img {
+    width: 40%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+    border: 4px solid #ff7043;
+  }
+
+  .highlight-info {
+    flex: 1;
+    text-align: left;
+  }
+
+  .highlight-box {
+    border: 4px solid #ff7043;
+    padding: 15px;
+    background-color: #fff3e0;
+  }
+
+  /*   
+  .mobile-hide {
+    display: none;
+  } */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .grid-item:nth-child(n + 5) {
+    display: none;
+  }
+
+  .box {
+    border: 4px solid #ff7043;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff3e0;
+  }
+
+  .box-img {
+    width: auto;
+    max-width: 100%;
+    max-height: 180px;
+    height: auto;
+  }
+}
