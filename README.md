@@ -27,7 +27,11 @@ Documenting key programming assignments across core CS courses.
 
 #### 💻 COMPSCI 1XC3 – Development Basics (C)
 
-> _(To be added)_ – Assignments involving file handling, memory management, and data structures in C.
+| Assignment | Description | Link |
+|------------|-------------|------|
+| ⚙️ Bitwise Basics        | Explores bitwise operations in C using various built-in functions and techniques | [View Folder](./COMPSCI-1XC3/BitwiseBasics/) |
+| 🧾 Enrollment Parser (Array) | Parses student and course information from files, stores them in arrays, and prints a formatted enrollment report | [View Folder](./COMPSCI-1XC3/EnrollmentParserArray/) |
+| 🧱 Enrollment Parser (Struct) | Similar to the array version, but uses `struct` data types for more organized and modular data management | [View Folder](./COMPSCI-1XC3/EnrollmentParserStruct/) |
 
 ---
 
